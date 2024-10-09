@@ -1,0 +1,149 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    width: 100%;
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    /* gap: 64px; */
+}
+
+
+.topdiv {
+    /* padding-top: 80px; */
+    font-family: "Poppins", sans-serif;
+    text-align: center;
+}
+
+.topdiv span {
+    color: #4d4f62;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 275;
+    line-height: normal;
+    letter-spacing: 0.25px;
+}
+
+.topdiv h1 {
+    color: #4d4f62;
+    text-align: center;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: 0.25px;
+}
+.topdiv p {
+    color: #a3a5ae;
+    text-align: center;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 25px;
+    letter-spacing: 0.104px;
+}
+
+.container{
+    display: flex;
+    width: 1110px;
+    height: 530px;
+}
+
+.contstyle{
+    height: 530px;
+    width: 33.3333333333%;
+}
+
+.left{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.allbox{
+    padding: 32px 32px 188px 32px;
+    position: relative;
+    top: 64px;
+    border-top: solid 4px;
+    border-radius: 8px;
+    background: #FFF;
+    box-shadow: 0px 15px 30px -11px rgba(131, 166, 210, 0.50);
+    width: 350px;
+    height: 250px;
+    font-family: "Poppins", sans-serif;
+}
+.box1{
+    border-color: #44D3D2;
+}
+
+svg{
+    position: absolute;
+    margin-right: 32px;
+    margin-bottom: 32px;
+    right: 0;
+    bottom: 0;
+}
+
+.allspan{
+    color: #4D4F62;
+font-size: 20px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+}
+
+.allp{
+    color: #7BA0C7;
+font-size: 13px;
+font-style: normal;
+font-weight: 400;
+line-height: 23px; /* 176.923% */
+letter-spacing: 0.09px;
+}
+
+.box2{
+    border-color: #EA5454;
+}
+.box3{
+    border-color: #FCAE4A;
+}
+.box4{
+    border-color: #549EF2;
+}
+.mid{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+.right{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+@media screen and (max-width: 1100px){
+    body{
+        /* padding-top: 85px; */
+        display: flex;
+        gap: 10px;
+        flex-direction: column;
+        
+        height: 1400px;
+    }
+
+    .container{    
+   /* margin-top: 76px; */
+        gap: 30px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
